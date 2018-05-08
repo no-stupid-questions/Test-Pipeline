@@ -1,3 +1,4 @@
+Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent { docker { image 'maven:3.3.3' } }
     stages {
@@ -7,5 +8,5 @@ pipeline {
             }
         }
     }
-}#   T e s t - P i p e l i n e  
+}  
  
